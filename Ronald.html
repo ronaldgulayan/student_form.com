@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student form</title>
+        <meta name="keywords" content="html,practice,example,ronald">
+        <meta name="author" content="Ronald Gulayan">
+        <meta name="description" content="For fun only">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <form action="end.html" target="_blank">
+        <h1>Student form</h1>
+        
+        <label for=first_name>First name:</label> <br>
+        <input type="text" id="first_name" placeholder="First Name">
+        
+        <br><br>
+        
+        <label for="last_name">Last name: </label> <br>
+        <input type="text" id="last_name" placeholder="Last Name">
+        
+        <br><br>
+        
+        <label for="middle_name">Middle Name:</label> <br>
+        <input type="text" id="middle_name" placeholder="Middle Name">
+        
+        <br><br>
+        
+        <label for="number">Phone Number:</label> <br>
+        <input type="tel" id="number" placeholder="12345678900" maxlength="11">
+        
+        <br><br>
+        
+        <label for="birthday">Birthday:</label> <br>
+        <input type="date" id="birthday" min="2000-01-01">
+        
+        <br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" placeholder="0" id="age" min="0" max="100">
+        
+        <br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender"> 
+        <label for="female" id="label_female">Female:</label>
+        <input type="radio" id="female" name="gender">
+        
+        <br><br>
+        
+        <label for="course">Course:</label> 
+        <select name="course" placeholder="he">
+            <option>BSIT</option>
+            <option>BSCS</option>
+            <option>BSED</option>
+            <option>Crim</option>
+            <option>Nursing</option>
+            <option>Pilot</option>
+            <option>Sea man</option>
+        </select>
+        
+        <br><br>
+        
+        <label for="file">Upload your picture:</label> <br>
+        <input type="file">
+        
+        <br><br>
+        <hr>
+        <input type="submit">
+        <input type="reset">
+        <br>
+        <label for="remember_me">remember me</label>
+        <input id="remember_me" type="checkbox"> <br>
+        <a href="https://www.website.com/forgot-password/?source=SC">forgot password</a>
+        
+        </form>
+        
+        
+    </body>
+</html>
